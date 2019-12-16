@@ -1,15 +1,25 @@
 {
   "name": "osakobot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "version": "0.0.0",
+  "private": true,
+  "author": "makietan <makietan@users.noreply.github.com>",
+  "description": "A simple helpful robot for your Company",
   "dependencies": {
-    "request": "^2.88.0",
-    "request-promise": "^4.2.5"
+    "hubot": "^3.3.2",
+    "hubot-diagnostics": "^1.0.0",
+    "hubot-google-images": "^0.2.7",
+    "hubot-google-translate": "^0.2.1",
+    "hubot-help": "^1.0.1",
+    "hubot-heroku-keepalive": "^1.0.3",
+    "hubot-maps": "0.0.3",
+    "hubot-pugme": "^0.1.1",
+    "hubot-redis-brain": "^1.0.0",
+    "hubot-rules": "^1.0.0",
+    "hubot-scripts": "^2.17.2",
+    "hubot-shipit": "^0.2.1",
+    "hubot-slack": "^4.7.1"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
